@@ -68,7 +68,7 @@ Quelle syntaxe est utilisée pour ce fichier ?
 
 ## Partie II (à faire durant le TD) : compléter la classe `Fraction`
 Dans cet partie, vous compléterez les classes `Fraction` et `Main`.
-Un exemple d'interface pour une telle classe est donné par la classe http://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/org/apache/commons/math3/fraction/Fraction.html[`Fraction`] de la bibliothèque http://commons.apache.org/math/[Apache Commons Math].
+Un exemple d'interface pour une telle classe est donné par la classe [`Fraction`](http://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/org/apache/commons/math3/fraction/Fraction.html) de la bibliothèque [Apache Commons Math](http://commons.apache.org/math/).
 
 Vous respecterez les consignes ci-dessous :
 * chaque méthode de `Fraction` sera testée dans `Main` **avec des assertions** (cf. [Utilisation d'assertions](https://koor.fr/Java/Tutorial/java_assert.wp));
@@ -113,7 +113,7 @@ Vous respecterez les consignes ci-dessous :
    ```Java
     // Vérifiez avec le code ci-dessous
     Number aNumber = java.math.BigDecimal.ONE;
-    Number anotherNumber = new Fraction(0, 2);
+    Number anotherNumber = new Fraction(1, 2);
     assert java.lang.Math.abs(aNumber.doubleValue() + anotherNumber.doubleValue() - 1.5) < 1E-8;
     ```
 
